@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- <h1>PORTFOLIO BETA</h1> -->
+
+        <div class="tabs">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="home.html">CONTACT</a></li>
+            <li><a href="https://www.linkedin.com/in/antonio-tayborn-jr-55a0021a0/">LINKEDIN</a></li>
+        </div>
+
+        <img class= "banner" src="banner.png" width="60%" height="80%">
+
+        <h1 class="title">Projects</h1>
+        <br>
+
+        <div class="project">
+            <div class="project1">
+                <a href="https://antoniowritescode.itch.io/project-no-guard"><img src="EJBAy1.png" width="30%" height="30%"></a>
+            </div>
+
+            <div class="project2">
+                <img src="YZpzCK.png" width="30%" height="30%">
+            </div>
+
+        </div>
+
+        <style>
+            body{
+                background-color: black;
+                padding: 0;
+                margin: 0;
+            }
+
+            h1 {
+                font-size: 45px;
+                text-transform: capitalize;
+                text-align: center;
+                font-family: 'Unbounded';
+                color: aliceblue;
+            }
+
+            .title{
+                font-size: 45px;
+                text-transform: capitalize;
+                text-align: left;
+                font-family: 'Unbounded';
+                color: aliceblue;
+            }
+
+            .banner{
+                position: relative;
+                left: 255px;
+                top: -75px;
+                padding: 0;
+                margin: 0;
+            }
+
+            .tabs li{
+                float: right;
+                font-family: 'Unbounded';
+                padding-right: 25px;
+                list-style: none;
+            }
+
+            .tabs a{
+                text-decoration: none;
+                color: aliceblue;
+            }
+
+            .tabs a:hover{
+                color: red;
+            }
+
+            .project > *{
+                padding: 15px;
+
+            }
+
+            @media screen and (max-width: 500px){
+                h1{
+                    font-size: 15px;   
+                }
+
+                .project > *{
+                    font-size: small;
+                }
+            }
+        </style>
+
+        <script src="p5.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
