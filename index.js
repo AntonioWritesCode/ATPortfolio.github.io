@@ -27,10 +27,10 @@ function draw(){
     
     for(i = 0; i < 55; i++){
     rotate(angle * 0.08);
-    rotateZ(angle * 0.10);
+    rotateZ(angle * 0.010);
     fill(255, 155);
     stroke(50);
-    circle(i + 195, 195, i);
+    circle(i + 295, 195, i);
     }
     
     angle += 0.009;
