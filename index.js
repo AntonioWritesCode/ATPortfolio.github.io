@@ -10,7 +10,7 @@ function windowResized(){
 }
 
 function setup(){
-    canvas = createCanvas(windowWidth, windowHeight, WEBGL);
+    canvas = createCanvas(1280, 720, WEBGL);
     canvas.position(0, 0);
     canvas.style('z-index', '-1');
 
@@ -23,21 +23,21 @@ function draw(){
     ambientLight(255, mouseX - 100, mouseY - 100, 0);
   
     push();
-    translate(-55, 55, 0);
+    translate(-15, 15, 0);
     
-    for(i = 0; i < 55; i++){
+    for(i = 0; i < 95; i++){
     rotate(angle * 0.08);
     rotateZ(angle * 0.010);
     fill(255, 155);
     stroke(50);
-    circle(i + 295, 195, i);
+    circle(i + 195, 195, i);
     }
     
     angle += 0.009;
     pop();
     
     push();
-    translate(55, -55, 0);
+    translate(15, -15, 0);
 }
 
 // function planets(){
