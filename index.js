@@ -10,7 +10,7 @@ function windowResized(){
 }
 
 function setup(){
-    canvas = createCanvas(1280, 720, WEBGL);
+    canvas = createCanvas(1280, 1060, WEBGL);
     canvas.position(0, 0);
     canvas.style('z-index', '-1');
 
@@ -25,7 +25,7 @@ function draw(){
     push();
     translate(-15, 15, 0);
     
-    for(i = 0; i < 95; i++){
+    for(i = 0; i < 85; i++){
     rotate(angle * 0.08);
     rotateZ(angle * 0.010);
     fill(255, 155);

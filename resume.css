@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+    font-family: 'Unbounded';
+    color: aliceblue;
+}
+
+h4{
+    padding-left: 5px;
+    text-align: left;
+    color: aliceblue;
+    font-family: 'Unbounded';
+  }
+
+  .resume p{
+      color: aliceblue;
+      font-family: 'Unbounded';
+      padding-left: 5px;
+  }
+
+  .container {
+    padding-left: 5px;
+    width: 100%; /* Full width */
+    background-color: black; /* Grey background */
+  } 
+  
+  .skill-html {
+    padding-left: 5px;
+    border: 2px solid black;
+    text-align: center; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: black; /* White text color */
+  }
+  
+  
+  .skill-html {
+    width: 70%; 
+    border-radius: 5em;
+    background-color: #d53434;
+    font-family: 'Unbounded';
+  } 
+  
+  
+  .skill-js {
+    padding-left: 5px;
+    border: 2px solid black;
+    text-align: center; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: black; /* White text color */
+  }
+  
+  
+  .skill-js{
+    width: 20%; 
+    border-radius: 5em;
+    background-color: #d53434;
+    font-family: 'Unbounded';
+  } 
+  
+  .skill-python {
+    padding-left: 5px;
+    border: 2px solid black;
+    text-align: center; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: black; /* White text color */
+  }
+  
+  
+  .skill-python {
+    width: 70%; 
+    border-radius: 5em;
+    background-color: #d53434;
+    font-family: 'Unbounded';
+  } 
+  
+  .skill-c {
+    padding-left: 5px;
+    border: 2px solid black;
+    text-align: center; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: black; /* White text color */
+  }
+  
+  
+  .skill-c {
+    width: 70%; 
+    border-radius: 5em;
+    background-color: #d53434;
+    font-family: 'Unbounded';
+  } 
+
+  .skillsets > * {
+    padding: 15px;
+    margin: 35px;
+  }
+  
+  .resume h1{
+    padding-left: 5px;
+    text-decoration: underline;
+  }
+
+.tabs li{
+    float: right;
+    font-family: 'Unbounded';
+    padding-right: 15px;
+    list-style: none;
+}
+
+.tabs a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.tabs a:hover{
+    color: red;
+}
+
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 15px;   
+    }
+}

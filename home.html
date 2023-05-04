@@ -8,64 +8,71 @@
 
     <body>
         <br>
-            <section>
+            <section class="banner">
                 <img src="newBanner.png" width="55%" height="55%">
             </section>
-    
-            <div class="tabs">
-                <li><a href="home.html">HOME</a></li>
-                <li><a href="resume.html">RESUME</a></li>
-                <li><a href="https://www.linkedin.com/in/antonio-tayborn-jr-55a0021a0/">LINKEDIN</a></li>
-                <li><a href="https://github.com/AntonioWritesCode">GITHUB</a></li>
-            </div>
-
+        
             <br>
-            <section>
-                <h1 class="title">Past Projects</h1>
-            </section>
 
-            <br>
             <section>
-                <div>
-                    <img src="EJBAy1.png">
-                    <p>Goomba ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed princess quam. Suspendisse luctus enim vel rutrum euismod.</p>
+                <div class="tabs">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="resume.html">RESUME</a></li>
+                    <li><a href="https://www.linkedin.com/in/antonio-tayborn-jr-55a0021a0/">LINKEDIN</a></li>
+                    <li><a href="https://github.com/AntonioWritesCode">GITHUB</a></li>
                 </div>
             </section>
-        
+            
+
+            <br>
+            <h1>PAST PROJECTS</h1>
+  
+            <br>
+            <div class='projects'>
+                <a href="https://github.com/AntonioWritesCode/CallMeWhenYouGetLost-Website"><img src="pic1.png" width="15%" height="15%"></a>
+                <a href="https://antoniowritescode.itch.io/project-no-guard"><img src="EJBAy1.png" width="15%" height="15%"></a>
+                <a href="https://antoniowritescode.itch.io/dodge-that-asteroid"><img src="YZpzCK.png" width="15%" height="15%"></a>
+                <a href="https://f22csma202.github.io/MappingBurbank.github.io/index.html"><img src="map.png" width="15%" height="15%"></a>
+                <a href=""><img src="td_final.gif" width="15%" height="15%"></a>
+            </div>
+
         <style>
+            h1{
+                padding: 45px;
+                font-family: 'Unbounded';
+                text-align: center;
+                color: white;
+            }
+            
+            .projects img{
+                float: left;
+                border: 2px solid white;
+                border-radius: 10em;
+                margin: 30px;
+                font-family: 'Unbounded';
+            }
+
             body{
                 margin: 0;
                 padding: 0;
                 background-color: black;
             }
 
+            .projects > * {
+                color: aliceblue;
+                font-family: 'Unbounded';
+                font-size: 15px;
+            }
+
             .banner {
-                margin: 3px;
                 padding-left: 25%;
             }
 
-            h1 {
-                font-size: 40px;
-                text-transform: capitalize;
-                text-align: center;
-                font-family: 'Unbounded';
-                color: aliceblue;
-            }
-
-            .title{
-                font-size: 45px;
-                padding: 55px;
-                text-transform: capitalize;
-                text-align: center;
-                font-family: 'Unbounded';
-                color: aliceblue;
-            }
-
-           .tabs li{
+            .tabs li{
                 float: left;
                 font-family: 'Unbounded';
                 list-style: none;
-                padding-left: 245px;
+                padding-left: 225px;
             }
 
             .tabs a{
@@ -78,36 +85,25 @@
                 color: red;
             }
 
-            .projects > *{
-                float: left;
-            }
-
-            p{
-                color:aliceblue;
-            }
-
-            @media screen and (max-width: 500px){
+           @media screen and (max-width: 200px){
                 h1{
-                    font-size: 15px;   
+                    font-size: 25px;
                 }
 
-                .project > *{
-                    width: auto;
-                    height: auto;
+                .projects img{
+                    float: left;
+                    margin: 35px;
+                    width: 95%;
+                    height: 95%;
                 }
 
-                .banner {
-                    height: 590px;
-                    width: 590px;
-                    right: 90%;
-                    position: sticky;
+                .tabs > *{
+                    font-size: 25px;
                 }
-    
-            }
+           }
         </style>
 
         <script src="p5.js"></script>
         <script src="index.js"></script>
-        <script src="scroll.js"></script>
     </body>
 </html>
